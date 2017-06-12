@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ð Ð°ÑÑÐµÑ ÑÑÐ¿ÐµÐ²Ð°ÐµÐ¼Ð¾ÑÑÐ¸ Ð¸ ÐºÐ°ÑÐµÑÑÐ²Ð° Ð¾Ð±ÑÑÐµÐ½Ð½Ð¾ÑÑÐ¸</title>
+	<title>Расчет успеваемости и качества обученности</title>
 </head>
 <style>
+	label {margin-right:0.5em; width:10em; float:left; text-align:left; display:block;}
 	input[type=text] {width:50px; text-align:center; display:block; margin-bottom:10px;}
 </style>
 <body>
 	<form action="results.php" method="post">
-		<label>ÐÐ¾Ð»Ð¸ÑÐµÑÑÐ²Ð¾ "5"</label>
+		<label>Количество "5"</label>
 		<input type="text" name="marks[5]" value="0" />
 
-		<label>ÐÐ¾Ð»Ð¸ÑÐµÑÑÐ²Ð¾ "4"</label>
+		<label>Количество "4"</label>
 		<input type="text" name="marks[4]" value="0" />
 
-		<label>ÐÐ¾Ð»Ð¸ÑÐµÑÑÐ²Ð¾ "3"</label>
+		<label>Количество "3"</label>
 		<input type="text" name="marks[3]" value="0" />
 
-		<label>ÐÐ¾Ð»Ð¸ÑÐµÑÑÐ²Ð¾ "2"</label>
+		<label>Количество "2"</label>
 		<input type="text" name="marks[2]" value="0" />
 
-		<input type="submit" value="Ð Ð°ÑÑÑÐ¸ÑÐ°ÑÑ"/>
+		<input type="submit" value="Рассчитать"/>
 	</form>
 </body>
-</html>
+</html>  
