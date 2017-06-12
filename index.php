@@ -8,8 +8,8 @@
 	input[type=text] {width:50px; text-align:center; display:block; margin-bottom:10px;}
 </style>
 <body>
-	<form action="results.php" method="post">
-		<label>Количество "5"</label>
+	<h2>Расчет успеваемости и качества обученности</h2>
+	<label>Количество "5"</label>
 		<input type="text" name="marks[5]" value="0" />
 
 		<label>Количество "4"</label>
